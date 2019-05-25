@@ -5,6 +5,7 @@ dist/
 *.egg
 *.py[cod]
 __pycache__/
+.mypy_cache/
 *.so
 *~
 
