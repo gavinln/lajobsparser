@@ -23,6 +23,9 @@ test:
 mypy:
 	@mypy --follow-imports=skip --ignore-missing-imports lajobsparser
 
+twine:
+	@twine upload dist/*
+
 pep8:
 	@flake8 lajobsparser
 
