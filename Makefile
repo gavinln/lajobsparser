@@ -18,7 +18,7 @@ sdist:
 	python setup.py sdist
 
 test:
-	@pytest python/test*.py
+	@pytest .
 
 mypy:
 	@mypy --follow-imports=skip --ignore-missing-imports lajobsparser
