@@ -34,3 +34,26 @@ This project helps parse the job bulletins and associated files.
 pipenv install -e git+https://github.com/gavinln/lajobsparser.git#egg=lajobsparser
 ```
 
+## Push a new version to PyPI
+
+1. Change version number in setup.py
+
+2. Run tests
+
+```
+make test
+```
+
+3. Build a distribution
+
+```
+make sdist
+```
+
+4. Open a browser to PyPI: https://pypi.org/project/lajobsparser/
+
+5. Run twine
+
+```
+make twine
+```

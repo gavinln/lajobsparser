@@ -21,7 +21,7 @@ test:
 	@pytest .
 
 mypy:
-	@mypy --follow-imports=skip --ignore-missing-imports lajobsparser
+	@mypy --follow-imports=skip --ignore-missing-imports --check-untyped-defs lajobsparser
 
 twine:
 	@twine upload dist/*
