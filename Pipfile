@@ -9,7 +9,6 @@ verify_ssl = true
 mypy = "*"
 twine = "*"
 bumpversion = "*"
-python-language-server = {extras = ["all"],version = "*"}
 pandas = "*"
 pdfminer-six = "*"
 pyparsing = "*"
